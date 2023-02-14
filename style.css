@@ -1,0 +1,488 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@media ( min-width : 942px)
+{
+  .top-menu
+  {
+  	column-count: 6;
+  	margin-left: 30px;
+  }
+  .display-table-bg
+  {
+  	border-radius: 10px;
+  	width: 90%;
+  	margin: auto;
+  	margin-top: 20px;
+  	padding: 20px;
+  	background-color: white;
+  }
+}
+
+@media ( max-width : 941px)
+{
+  .top-menu
+  {
+  	column-count: 3;
+  	margin-left: 30px;
+  }
+  .display-table-bg
+  {
+  	border-radius: 10px;
+  	width: 120%;
+  	margin: auto;
+  	margin-top: 20px;
+  	padding: 20px;
+  	background-color: white;
+  }
+}
+@media ( max-width : 493px)
+{
+  .top-menu
+  {
+  	column-count: 2;
+  }
+  .display-table-bg
+  {
+  	border-radius: 10px;
+  	width: 150%;
+  	margin: auto;
+  	margin-top: 20px;
+  	padding: 20px;
+  	background-color: white;
+  }
+}
+body
+{
+	background-color: #eee;
+}
+.login-form
+{
+	background-color: white;
+	border-radius: 10px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 14px;
+	width: 300px;
+	margin: auto;
+	top: 8%;
+	padding: 20px;
+	position: relative;
+}
+.login-message
+{
+	text-align: center;
+	margin-top: 0px;
+	font-weight: 500;
+	color: red;
+	text-shadow: 1px 1px 3px grey;
+}
+.otp-message
+{
+	text-align: center;
+	margin-top: 0px;
+	font-weight: 500;
+	font-size: 18px;
+	color: red;
+}
+.login-form-area
+{
+	/*margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);*/
+}
+.login-label
+{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 15px;
+	margin-left: 15%;
+	padding: 20px;
+}
+.login-text
+{
+	background-color: #eee;
+	border: 0px;
+	border-radius: 5px;
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	width: 70%;
+	height: 30px;
+}
+.login-button
+{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 14px;
+	color: white;
+	background-color: #2152ff;
+	width: 30%;
+	height: 30px;
+	border: 0px;
+	border-radius: 5px;
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+}
+.login-button:hover
+{
+	background-image: linear-gradient(310deg, #17ad37 0%, #98ec2d 100%);
+	cursor: pointer;
+}
+.left-corner-heading
+{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 70%;
+	text-align: center;
+	color: #004A98;
+	margin: auto;
+	vertical-align:middle;
+}
+.left-corner-heading-img
+{
+	width : 69px;
+	margin: auto;
+	vertical-align : middle;
+}
+.side-menu
+{
+	width : 300px;
+	height : 100%;
+}
+.side-menu-button
+{
+	padding: 15px;
+	margin-bottom: 15px;
+	width: 65%;
+  display: block;
+	background-color: #fff;
+	color: #004A98;
+  font-size: 15px;
+	font-family: 'Josefin Sans', sans-serif;
+	border-radius: 5px;
+	box-shadow: 2px 2px 4px #D9D9D9;
+	text-decoration: none;
+}
+.side-menu-button:hover
+{
+	color : #EEE;
+	background-color: #004A98;
+}
+.side-menu-button-active
+{
+	padding: 15px;
+	margin-bottom: 15px;
+	width: 65%;
+  display: block;
+	color : #EEE;
+	background-color: #004A98;
+  font-size: 15px;
+	font-family: 'Josefin Sans', sans-serif;
+	border-radius: 5px;
+	box-shadow: 2px 2px 4px #D9D9D9;
+	text-decoration: none;
+}
+.side-menu-button-logout
+{
+	padding: 15px;
+	margin-bottom: 15px;
+	width: 65%;
+  display: block;
+	background-color: red;
+	color: #EEE;
+  font-size: 15px;
+	font-family: 'Josefin Sans', sans-serif;
+	border-radius: 5px;
+	box-shadow: 2px 2px 4px #D9D9D9;
+	text-decoration: none;
+}
+.side-menu-button-logout:hover
+{
+	background-color: #EEE;
+	color: red;
+}
+
+.display-table
+{
+	border-collapse:collapse;
+	width: 100%;
+	font-family: 'Josefin Sans', sans-serif;
+}
+tr
+{
+	border-bottom: 2px solid #eee;
+}
+td
+{
+	
+	border-collapse: collapse;
+}
+th
+{
+	font-weight: 400;
+	text-align: left;
+	font-size: 14px;
+	text-shadow: 1px 1px 1px grey;
+}
+.submit-button
+{
+	border-color: white;
+	border-width: 0px;
+	margin: 5px;
+	padding: 5px;
+	padding-top: 6px;
+	text-align: center;
+	color : #EEE;
+	background-color: #004A98;
+   font-size: 15px;
+	font-family: 'Josefin Sans', sans-serif;
+	border-radius: 5px;
+}
+.submit-button:hover
+{
+	color : #004A98;
+	background-color: yellow;
+	cursor: pointer;
+}
+.new-bill-form
+{
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.new-bill-label
+{
+	column-width: 80px;
+}
+.new-bill-text
+{
+	width: 100%;
+	border-radius: 5px;
+	border-width: 0px;
+	height: 30px;
+	font-size: 15px;
+	background-color: #eee;
+	box-shadow: 2px 2px 4px #E9E9E9;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.new-bill-button
+{
+	background-color: #eee;
+	color: #004A98;
+	font-size: 15px;
+	border: 0px;
+	height: 30px;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 5px;
+	width: 30px;
+}
+.new-bill-button:hover
+{
+	color: #eee;
+	background-color: #004A98;
+	cursor: pointer;
+}
+.new-bill-area
+{
+	font-family: 'Josefin Sans', sans-serif;
+	border-radius: 5px;
+	background-color: white;
+	padding: 10px;
+	margin: 10px;
+}
+.biller_details
+{
+	text-align: center;
+	width: 100%;
+}
+.bill-creation-table
+{
+	font-family: 'nunito', sans-serif;
+	width: 100%;
+	border-collapse: collapse;
+	border-top: 20px;
+	border-color: black;
+}
+.bill-creation-table-header
+{
+	/*border: 2px solid black;*/
+	padding: 2px;
+	text-align: center;
+}
+.bill-creation-table-row
+{
+	border-width: 2px;
+	border-color: black;
+}
+
+.display_td
+{
+	border: 1px solid black;
+	padding-left: 15px;
+	font-size: 12px;
+}
+.itemno
+{
+	width : 1%;
+	border: 2px solid black;
+	padding: 10px;
+	font-size: 14px;
+	/*border: 1px solid #004AAD;*/
+}
+.td_itemno
+{
+	width : 90%;
+	/*border: 1px solid #004AAD;*/
+}
+.itemname
+{
+	width: 35%;
+	border: 2px solid black;
+	font-size: 14px;
+	/*border: 1px solid #004AAD;*/
+}
+.td_itemname
+{
+	width: 98%;
+	/*margin-left: -8px;
+	
+	border: 1px solid #004AAD;*/
+}
+.th_money
+{
+	width: 1%;
+	font-size: 14px;
+	border: 2px solid black;
+	/*border: 1px solid #004AAD;*/
+}
+.tr_price
+{
+	width: 10%;
+	font-size: 14px;
+	border: 2px solid grey;
+	/*border: 1px solid #004AAD;*/
+}
+.td_price
+{
+	width: 95%;
+	font-size: 14px;
+	/*border: 1px solid #004AAD;*/
+}
+.td_money
+{
+	width: 90%;
+	font-size: 14px;
+	/*border: 1px solid #004AAD;*/
+}
+/*the container must be positioned relative:*/
+.custom-select {
+  border-radius : 10px;
+  position: relative;
+  color : white;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+  border-radius : 10px;
+  color : white;
+}
+
+.select-selected {
+  background-color: #004A98;
+  color : white;
+  border-radius : 10px;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  color : white;
+  border-color: #fff transparent transparent transparent;
+  border-radius : 10px;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  color : white;
+  border-radius : 10px;
+  top: 7px;
+}
+.select-selected
+{
+padding: 8px 16px;
+  border-radius : 10px;
+  border: 1px solid transparent;
+  color : white;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+  }
+/*style the items (options), including the selected item:*/
+.select-items div {
+  padding: 8px 16px;
+  border-radius : 10px;
+  border: 1px solid transparent;
+  color : black;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  border-radius : 10px;
+  background-color: #F9F9F9;
+  color : black;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+  border-radius : 10px;
+  color : black;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: #004A98;
+  border-radius : 10px;
+  color : white;
+}
+.bill-labels
+{
+	font-family: 'nunito', sans-serif;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: white;
+	border-radius: 10px;
+}
+.label-id
+{
+	text-align: center;
+	margin: auto;
+	width: 200px;
+	background-color: #004A98;
+	border-radius: 5px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: white;
+	padding: 10px;
+}
+.new-user-form
+{
+	font-family: 'Josefin Sans', sans-serif;
+}
